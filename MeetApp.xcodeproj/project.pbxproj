@@ -7,18 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71A3D14821599BA0E6C84FD7 /* Pods_MeetApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78913F96B6C64B55D79D3675 /* Pods_MeetApp.framework */; };
+		D353223F292AD71D000723CB /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D353223E292AD71D000723CB /* PostModel.swift */; };
+		D3532241292BC6B6000723CB /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3532240292BC6B6000723CB /* PostService.swift */; };
+		D3532244292BE439000723CB /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = D3532243292BE439000723CB /* SDWebImageSwiftUI */; };
+		D3532246292BE480000723CB /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3532245292BE480000723CB /* ProfileHeader.swift */; };
+		D37D42922923B369005AECAA /* ButtonModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D42912923B369005AECAA /* ButtonModifiers.swift */; };
+		D37D42942923EC9A005AECAA /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D42932923EC9A005AECAA /* SignUpView.swift */; };
+		D37D42972923F7EB005AECAA /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D42962923F7EB005AECAA /* ImagePicker.swift */; };
+		D392CCF4292A461B004FDD42 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D392CCF3292A461B004FDD42 /* SessionStore.swift */; };
+		D392CCF6292A4BEE004FDD42 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D392CCF5292A4BEE004FDD42 /* HomeView.swift */; };
+		D392CCF8292AA810004FDD42 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = D392CCF7292AA810004FDD42 /* Search.swift */; };
+		D392CCFA292AA840004FDD42 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D392CCF9292AA840004FDD42 /* Post.swift */; };
+		D392CCFC292AA870004FDD42 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = D392CCFB292AA870004FDD42 /* Notifications.swift */; };
+		D392CCFE292AA88D004FDD42 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D392CCFD292AA88D004FDD42 /* Profile.swift */; };
+		D392CD00292AA8AE004FDD42 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D392CCFF292AA8AE004FDD42 /* Main.swift */; };
+		D3B26DC329258B4F00198987 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3B26DC229258B4F00198987 /* GoogleService-Info.plist */; };
+		D3B26DC6292590B800198987 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B26DC5292590B800198987 /* UserModel.swift */; };
+		D3B26DC92925916600198987 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B26DC82925916600198987 /* Extensions.swift */; };
+		D3B26DCC29268A0000198987 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B26DCB29268A0000198987 /* AuthService.swift */; };
+		D3B26DCE29268A1E00198987 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B26DCD29268A1E00198987 /* StorageService.swift */; };
 		D3C07CA8292281C2008A7311 /* MeetAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C07CA7292281C2008A7311 /* MeetAppApp.swift */; };
 		D3C07CAA292281C2008A7311 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C07CA9292281C2008A7311 /* ContentView.swift */; };
 		D3C07CAC292281C5008A7311 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C07CAB292281C5008A7311 /* Assets.xcassets */; };
 		D3C07CAF292281C5008A7311 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C07CAE292281C5008A7311 /* Preview Assets.xcassets */; };
+		D3C07CB729228267008A7311 /* FormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C07CB629228267008A7311 /* FormField.swift */; };
+		D3C07CBA2922883F008A7311 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C07CB92922883F008A7311 /* SignInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78913F96B6C64B55D79D3675 /* Pods_MeetApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF7110CCA88392AAD998EF0 /* Pods-MeetApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetApp.debug.xcconfig"; path = "Target Support Files/Pods-MeetApp/Pods-MeetApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9B8AFF0967F20F18EF235604 /* Pods-MeetApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetApp.release.xcconfig"; path = "Target Support Files/Pods-MeetApp/Pods-MeetApp.release.xcconfig"; sourceTree = "<group>"; };
+		D353223E292AD71D000723CB /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		D3532240292BC6B6000723CB /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		D3532245292BE480000723CB /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		D37D42912923B369005AECAA /* ButtonModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifiers.swift; sourceTree = "<group>"; };
+		D37D42932923EC9A005AECAA /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		D37D42962923F7EB005AECAA /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		D392CCF3292A461B004FDD42 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		D392CCF5292A4BEE004FDD42 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D392CCF7292AA810004FDD42 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		D392CCF9292AA840004FDD42 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		D392CCFB292AA870004FDD42 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		D392CCFD292AA88D004FDD42 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		D392CCFF292AA8AE004FDD42 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		D3B26DC229258B4F00198987 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D3B26DC5292590B800198987 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		D3B26DC82925916600198987 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D3B26DCB29268A0000198987 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		D3B26DCD29268A1E00198987 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		D3C07CA4292281C2008A7311 /* MeetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C07CA7292281C2008A7311 /* MeetAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetAppApp.swift; sourceTree = "<group>"; };
 		D3C07CA9292281C2008A7311 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D3C07CAB292281C5008A7311 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3C07CAE292281C5008A7311 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3C07CB629228267008A7311 /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
+		D3C07CB92922883F008A7311 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +71,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3532244292BE439000723CB /* SDWebImageSwiftUI in Frameworks */,
+				71A3D14821599BA0E6C84FD7 /* Pods_MeetApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B825A7BE6E9154017EF4042 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BF7110CCA88392AAD998EF0 /* Pods-MeetApp.debug.xcconfig */,
+				9B8AFF0967F20F18EF235604 /* Pods-MeetApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84C5FDF6A6B3D2CC9808452E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78913F96B6C64B55D79D3675 /* Pods_MeetApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D37D42952923F7C6005AECAA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D37D42962923F7EB005AECAA /* ImagePicker.swift */,
+				D3B26DC82925916600198987 /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D3B26DC42925909D00198987 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3B26DC5292590B800198987 /* UserModel.swift */,
+				D353223E292AD71D000723CB /* PostModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D3B26DCA292689EC00198987 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D3B26DCB29268A0000198987 /* AuthService.swift */,
+				D3B26DCD29268A1E00198987 /* StorageService.swift */,
+				D392CCF3292A461B004FDD42 /* SessionStore.swift */,
+				D3532240292BC6B6000723CB /* PostService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		D3C07C9B292281C2008A7311 = {
 			isa = PBXGroup;
 			children = (
 				D3C07CA6292281C2008A7311 /* MeetApp */,
 				D3C07CA5292281C2008A7311 /* Products */,
+				5B825A7BE6E9154017EF4042 /* Pods */,
+				84C5FDF6A6B3D2CC9808452E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +146,12 @@
 		D3C07CA6292281C2008A7311 /* MeetApp */ = {
 			isa = PBXGroup;
 			children = (
+				D3B26DCA292689EC00198987 /* Services */,
+				D3B26DC42925909D00198987 /* Models */,
+				D3B26DC229258B4F00198987 /* GoogleService-Info.plist */,
+				D37D42952923F7C6005AECAA /* Utilities */,
+				D3C07CB829228822008A7311 /* Views */,
+				D3C07CB529228203008A7311 /* Component */,
 				D3C07CA7292281C2008A7311 /* MeetAppApp.swift */,
 				D3C07CA9292281C2008A7311 /* ContentView.swift */,
 				D3C07CAB292281C5008A7311 /* Assets.xcassets */,
@@ -67,6 +168,31 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D3C07CB529228203008A7311 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				D3C07CB629228267008A7311 /* FormField.swift */,
+				D37D42912923B369005AECAA /* ButtonModifiers.swift */,
+				D3532245292BE480000723CB /* ProfileHeader.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		D3C07CB829228822008A7311 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3C07CB92922883F008A7311 /* SignInView.swift */,
+				D37D42932923EC9A005AECAA /* SignUpView.swift */,
+				D392CCF5292A4BEE004FDD42 /* HomeView.swift */,
+				D392CCF7292AA810004FDD42 /* Search.swift */,
+				D392CCF9292AA840004FDD42 /* Post.swift */,
+				D392CCFB292AA870004FDD42 /* Notifications.swift */,
+				D392CCFD292AA88D004FDD42 /* Profile.swift */,
+				D392CCFF292AA8AE004FDD42 /* Main.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +200,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3C07CB2292281C5008A7311 /* Build configuration list for PBXNativeTarget "MeetApp" */;
 			buildPhases = (
+				267EE5C2AEE9A8E40418C17D /* [CP] Check Pods Manifest.lock */,
 				D3C07CA0292281C2008A7311 /* Sources */,
 				D3C07CA1292281C2008A7311 /* Frameworks */,
 				D3C07CA2292281C2008A7311 /* Resources */,
+				DCAFDFDDD4FE48D0C0EE0BBC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MeetApp;
+			packageProductDependencies = (
+				D3532243292BE439000723CB /* SDWebImageSwiftUI */,
+			);
 			productName = MeetApp;
 			productReference = D3C07CA4292281C2008A7311 /* MeetApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +242,9 @@
 				Base,
 			);
 			mainGroup = D3C07C9B292281C2008A7311;
+			packageReferences = (
+				D3532242292BE439000723CB /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = D3C07CA5292281C2008A7311 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,18 +261,80 @@
 			files = (
 				D3C07CAF292281C5008A7311 /* Preview Assets.xcassets in Resources */,
 				D3C07CAC292281C5008A7311 /* Assets.xcassets in Resources */,
+				D3B26DC329258B4F00198987 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		267EE5C2AEE9A8E40418C17D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeetApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCAFDFDDD4FE48D0C0EE0BBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeetApp/Pods-MeetApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeetApp/Pods-MeetApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeetApp/Pods-MeetApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D3C07CA0292281C2008A7311 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D392CD00292AA8AE004FDD42 /* Main.swift in Sources */,
+				D392CCFE292AA88D004FDD42 /* Profile.swift in Sources */,
+				D3C07CB729228267008A7311 /* FormField.swift in Sources */,
+				D3B26DC92925916600198987 /* Extensions.swift in Sources */,
+				D392CCF6292A4BEE004FDD42 /* HomeView.swift in Sources */,
+				D392CCFA292AA840004FDD42 /* Post.swift in Sources */,
+				D392CCF4292A461B004FDD42 /* SessionStore.swift in Sources */,
 				D3C07CAA292281C2008A7311 /* ContentView.swift in Sources */,
+				D3B26DC6292590B800198987 /* UserModel.swift in Sources */,
+				D37D42922923B369005AECAA /* ButtonModifiers.swift in Sources */,
+				D392CCFC292AA870004FDD42 /* Notifications.swift in Sources */,
+				D37D42972923F7EB005AECAA /* ImagePicker.swift in Sources */,
+				D3C07CBA2922883F008A7311 /* SignInView.swift in Sources */,
+				D3B26DCC29268A0000198987 /* AuthService.swift in Sources */,
+				D3532246292BE480000723CB /* ProfileHeader.swift in Sources */,
+				D353223F292AD71D000723CB /* PostModel.swift in Sources */,
+				D3532241292BC6B6000723CB /* PostService.swift in Sources */,
+				D37D42942923EC9A005AECAA /* SignUpView.swift in Sources */,
+				D3B26DCE29268A1E00198987 /* StorageService.swift in Sources */,
 				D3C07CA8292281C2008A7311 /* MeetAppApp.swift in Sources */,
+				D392CCF8292AA810004FDD42 /* Search.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +457,7 @@
 		};
 		D3C07CB3292281C5008A7311 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BF7110CCA88392AAD998EF0 /* Pods-MeetApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,6 +486,7 @@
 		};
 		D3C07CB4292281C5008A7311 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B8AFF0967F20F18EF235604 /* Pods-MeetApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -337,6 +535,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D3532242292BE439000723CB /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D3532243292BE439000723CB /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3532242292BE439000723CB /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D3C07C9C292281C2008A7311 /* Project object */;
 }
