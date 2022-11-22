@@ -12,6 +12,10 @@
 		D3532241292BC6B6000723CB /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3532240292BC6B6000723CB /* PostService.swift */; };
 		D3532244292BE439000723CB /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = D3532243292BE439000723CB /* SDWebImageSwiftUI */; };
 		D3532246292BE480000723CB /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3532245292BE480000723CB /* ProfileHeader.swift */; };
+		D3532248292D0274000723CB /* PostCardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3532247292D0274000723CB /* PostCardService.swift */; };
+		D353224A292D0890000723CB /* ProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3532249292D0890000723CB /* ProfileService.swift */; };
+		D353224C292D1689000723CB /* PostCardImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D353224B292D1689000723CB /* PostCardImage.swift */; };
+		D353224E292D1CAE000723CB /* PostCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D353224D292D1CAE000723CB /* PostCard.swift */; };
 		D37D42922923B369005AECAA /* ButtonModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D42912923B369005AECAA /* ButtonModifiers.swift */; };
 		D37D42942923EC9A005AECAA /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D42932923EC9A005AECAA /* SignUpView.swift */; };
 		D37D42972923F7EB005AECAA /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D42962923F7EB005AECAA /* ImagePicker.swift */; };
@@ -42,6 +46,10 @@
 		D353223E292AD71D000723CB /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		D3532240292BC6B6000723CB /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		D3532245292BE480000723CB /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		D3532247292D0274000723CB /* PostCardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardService.swift; sourceTree = "<group>"; };
+		D3532249292D0890000723CB /* ProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileService.swift; sourceTree = "<group>"; };
+		D353224B292D1689000723CB /* PostCardImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardImage.swift; sourceTree = "<group>"; };
+		D353224D292D1CAE000723CB /* PostCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCard.swift; sourceTree = "<group>"; };
 		D37D42912923B369005AECAA /* ButtonModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifiers.swift; sourceTree = "<group>"; };
 		D37D42932923EC9A005AECAA /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		D37D42962923F7EB005AECAA /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -121,6 +129,8 @@
 				D3B26DCD29268A1E00198987 /* StorageService.swift */,
 				D392CCF3292A461B004FDD42 /* SessionStore.swift */,
 				D3532240292BC6B6000723CB /* PostService.swift */,
+				D3532247292D0274000723CB /* PostCardService.swift */,
+				D3532249292D0890000723CB /* ProfileService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -174,6 +184,8 @@
 				D3C07CB629228267008A7311 /* FormField.swift */,
 				D37D42912923B369005AECAA /* ButtonModifiers.swift */,
 				D3532245292BE480000723CB /* ProfileHeader.swift */,
+				D353224B292D1689000723CB /* PostCardImage.swift */,
+				D353224D292D1CAE000723CB /* PostCard.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -322,6 +334,8 @@
 				D392CCFA292AA840004FDD42 /* Post.swift in Sources */,
 				D392CCF4292A461B004FDD42 /* SessionStore.swift in Sources */,
 				D3C07CAA292281C2008A7311 /* ContentView.swift in Sources */,
+				D353224A292D0890000723CB /* ProfileService.swift in Sources */,
+				D353224E292D1CAE000723CB /* PostCard.swift in Sources */,
 				D3B26DC6292590B800198987 /* UserModel.swift in Sources */,
 				D37D42922923B369005AECAA /* ButtonModifiers.swift in Sources */,
 				D392CCFC292AA870004FDD42 /* Notifications.swift in Sources */,
@@ -330,7 +344,9 @@
 				D3B26DCC29268A0000198987 /* AuthService.swift in Sources */,
 				D3532246292BE480000723CB /* ProfileHeader.swift in Sources */,
 				D353223F292AD71D000723CB /* PostModel.swift in Sources */,
+				D353224C292D1689000723CB /* PostCardImage.swift in Sources */,
 				D3532241292BC6B6000723CB /* PostService.swift in Sources */,
+				D3532248292D0274000723CB /* PostCardService.swift in Sources */,
 				D37D42942923EC9A005AECAA /* SignUpView.swift in Sources */,
 				D3B26DCE29268A1E00198987 /* StorageService.swift in Sources */,
 				D3C07CA8292281C2008A7311 /* MeetAppApp.swift in Sources */,

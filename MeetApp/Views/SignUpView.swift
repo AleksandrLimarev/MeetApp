@@ -142,6 +142,7 @@ struct SignUpView: View {
                     self.sourceType = .camera
                     self.showingImagePicker = true
                     
+                    
                 }, .cancel()
             ])
         }

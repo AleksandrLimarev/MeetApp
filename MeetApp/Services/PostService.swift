@@ -44,7 +44,30 @@ class PostService {
     
     static func loadUserPosts(userid: String, onSuccess:@escaping(_ posts: [PostModel]) -> Void){
         
-        PostService.PostsUserId(userId: userid).collection("posts")
+        PostService.PostsUserId(userId: userid).collection("posts").getDocuments{
+            (snapshot, error) in
+            
+            guard let  snap = snapshot else {
+                print("Error")
+                
+                return
+            }
+            
+            var posts = [PostModel]()
+            
+            for doc in snap.documents {
+                let dict = doc.data()
+                guard  let  decoder = try? PostModel.init(fromDictionary: dict)
+                        
+                else {
+                    return
+                }
+                
+                posts.append(decoder)
+            }
+            onSuccess(posts)
+
+        }
     }
 }
 
