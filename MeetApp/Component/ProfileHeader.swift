@@ -11,7 +11,9 @@ import SDWebImageSwiftUI
 struct ProfileHeader: View {
     
     var user: User?
-    
+    var postsCount: Int
+    @Binding var following: Int
+    @Binding var followers: Int
     
     var body: some View {
         
@@ -33,15 +35,20 @@ struct ProfileHeader: View {
         }
         VStack{
             HStack{
+                
+                VStack{
+                    Text("Posts").font(.footnote)
+                    Text("\(postsCount)").font(.title).bold()
+                }.padding(.top, 60)
                 Spacer()
                 VStack{
-                    Text("Followers").font(.headline)
-                    Text("20").font(.title).bold()
+                    Text("Followers").font(.footnote)
+                    Text("\(followers)").font(.title).bold()
                 }.padding(.top, 60)
                
                 Spacer()
                 VStack{
-                    Text("Following").font(.headline)
+                    Text("\(following)").font(.headline)
                     Text("20").font(.title).bold()
                 }.padding(.top, 60)
                 Spacer()
@@ -51,8 +58,9 @@ struct ProfileHeader: View {
     }
 }
 
-struct ProfileHeader_Previews: PreviewProvider {
-    static var previews: some View {
-        ProfileHeader()
-    }
-}
+
+//struct ProfileHeader_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ProfileHeader()
+//    }
+//}

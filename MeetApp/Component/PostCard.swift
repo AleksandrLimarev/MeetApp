@@ -28,7 +28,20 @@ struct PostCard: View {
         VStack(alignment: .leading) {
             
             HStack(spacing: 15) {
-                Button(action: {}) {
+                Button(action: {
+                    self.animate = true
+                    
+                    DispatchQueue.main.asyncAfter(deadline: .now() + self.duration, execute: {
+                        self.animate = false
+                        
+                        if(self.postCardService.isLiked){
+                            self.postCardService.unlike()
+                        }else {
+                            self.postCardService.like()
+                        }
+                    })
+                    
+                }) {
                     Image(systemName: (self.postCardService.isLiked) ? "heart.fill": "heart")
                         .frame(width: 25, height: 25, alignment: .center)
                         .foregroundColor((self.postCardService.isLiked) ? .red : .black)

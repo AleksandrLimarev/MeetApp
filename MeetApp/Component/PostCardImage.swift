@@ -48,8 +48,8 @@ struct PostCardImage: View {
     }
 }
 
-struct PostCardImage_Previews: PreviewProvider {
-    static var previews: some View {
-        PostCardImage()
-    }
-}
+//struct PostCardImage_Previews: PreviewProvider {
+//    static var previews: some View {
+//        PostCardImage()
+//    }
+//}
