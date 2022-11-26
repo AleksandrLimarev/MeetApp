@@ -8,22 +8,27 @@
 import SwiftUI
 import SDWebImageSwiftUI
 import FirebaseAuth
+import Foundation
 
 struct Profile: View {
     
     @EnvironmentObject var session: SessionStore
     @State private var selection = 1
-    @StateObject var profileService = ProfileService()
+    @ObservedObject var profileService = ProfileService()
     
     
     let threeColomuns = [GridItem(), GridItem(), GridItem()]
+    
+    func listen(){
+        session.listen()
+    }
     
     
     var body: some View {
         
         ScrollView{
         VStack{
-            Spacer()
+            
         
             ProfileHeader(user: self.session.session, postsCount: profileService.posts.count, following: $profileService.following, followers: $profileService.followers)
             
@@ -73,7 +78,9 @@ struct Profile: View {
             .navigationBarTitleDisplayMode(.inline)
             .navigationBarTitleDisplayMode(.inline)
             .navigationBarItems(leading: Button(action: {}){
+                NavigationLink(destination: UserProfile()){
                 Image(systemName: "person.fill")
+                }
             }, trailing: Button(action: {
                 self.session.logout()
             }){

@@ -43,6 +43,10 @@ extension String {
         return stringArray
 
     }
+    
+    func removeWhiteSpce() -> String{
+        return components(separatedBy: .whitespaces).joined()
+    }
 }
 
 extension Date{

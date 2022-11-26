@@ -61,6 +61,6 @@ struct ProfileHeader: View {
 
 //struct ProfileHeader_Previews: PreviewProvider {
 //    static var previews: some View {
-//        ProfileHeader()
+//        ProfileHeader(postsCount: <#Int#>, following: <#Binding<Int>#>, followers: <#Binding<Int>#>)
 //    }
 //}
